@@ -201,6 +201,7 @@ if __name__ == '__main__':
                              zoom_range=0.2, horizontal_flip=True)
 
     K.set_image_dim_ordering('tf')
+    # K.set_image_data_format('channels_first')
 
     batch_size = 128
     epochs = 50
